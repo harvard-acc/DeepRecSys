@@ -1,0 +1,11 @@
+{
+    "arch_mlp_bot": "512",
+    "arch_mlp_top": "256-256-128-64-64",
+    "arch_embedding_size": "140000-140000-28000-28000",
+    "arch_sparse_feature_size": 64,
+    "num_indices_per_lookup_fixed": true,
+    "num_indices_per_lookup": 1,
+    "arch_interaction_op": "cat",
+    "model_type": "ncf",
+    "model_name": "ncf"
+}

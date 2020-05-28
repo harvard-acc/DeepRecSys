@@ -1,0 +1,11 @@
+{
+    "arch_mlp_bot": "128-64-32",
+    "arch_mlp_top": "256-64-1",
+    "arch_embedding_size": "4000000-4000000-4000000-4000000-4000000-4000000-4000000-4000000",
+    "arch_sparse_feature_size": 32,
+    "num_indices_per_lookup_fixed": true,
+    "num_indices_per_lookup": 80,
+    "arch_interaction_op": "cat",
+    "model_type": "dlrm",
+    "model_name": "rm1"
+}
