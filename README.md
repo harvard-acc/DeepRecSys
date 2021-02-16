@@ -13,7 +13,7 @@ This repository supports 8-industry representative neural recommendation models 
 6. Deep Interest Evolution Network (DIEN); [link](https://arxiv.org/pdf/1809.03672.pdf)
 
 ## Getting started
-To get you started quickly, we have provided a number of examples scripts to run synthetic models, characterize hardware platforms, model at-scale inference, and optimizing scheduling deicisons. 
+To get you started quickly, we have provided a number of examples scripts to run synthetic models, characterize hardware platforms, model at-scale inference, and optimizing scheduling decisions. 
 
 The code is structured such that it enables maximum flexibility for future extensions. 
 1. The top-level is found in ```DeepRecSys.py```. This co-ordinates the models, load generator, scheduler, and hardware backends.
