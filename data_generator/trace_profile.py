@@ -107,7 +107,7 @@ if __name__ == "__main__":
     if args.profile_trace_random == 0:
         print("================ profile dataset trace =========================")
         raw_trace = read_trace_from_file(args.profile_trace_file)
-        profile_len = min(args.profile_len, len(raw_data))
+        profile_len = min(args.profile_len, len(raw_trace))
         trace = raw_trace[0:profile_len]
         print("len of raw_trace, trace = ", len(raw_trace), len(trace))
     else:
