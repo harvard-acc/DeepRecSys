@@ -187,8 +187,8 @@ def inferenceEngine(args,
 
     total_time = 0
 
+    inferenceEngineReadyQueue.put(True)
     while True:
-      inferenceEngineReadyQueue.put(True)
       request = requestQueue.get()
 
       if request is None:
